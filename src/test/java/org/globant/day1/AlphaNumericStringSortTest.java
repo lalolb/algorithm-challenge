@@ -17,7 +17,6 @@ public class AlphaNumericStringSortTest {
 
         // Act
         var result = alphaNumericStringSort.solve();
-        System.out.println(result);
 
         // Assert
         Assertions.assertEquals(input.length(), result.length());
