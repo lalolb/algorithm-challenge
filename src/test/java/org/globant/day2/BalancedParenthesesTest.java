@@ -11,7 +11,7 @@ public class BalancedParenthesesTest {
 
     @ParameterizedTest
     @MethodSource("provideInputStrings")
-    void test(String input, boolean expected) {
+    void balancedParentheses_shouldEvaluateInputAsExpected(String input, boolean expected) {
         // Arrange
         BalancedParentheses bp = new BalancedParentheses(input);
 
